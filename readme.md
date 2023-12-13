@@ -1,12 +1,12 @@
 # TwilioQuestProspector
 
-SunQuestProspector is a project that uses the Twilio platform to automate outbound phone calls, provide information, and manage recipient responses. The project is designed to help individuals save on their electricity bills by connecting them with a service specializing in energy savings.
+TwilioQuestProspector is a project that uses the Twilio platform to automate outbound phone calls, provide information, and manage recipient responses. The project is designed to help individuals save on their electricity bills by connecting them with a service specializing in energy savings.
 
 ## Configuration
 
 ### Prerequisites
 
-Before using SunQuestProspector, make sure you have the following:
+Before using TwilioQuestProspector, make sure you have the following:
 
 - A Twilio account with valid credentials (accountSid and authToken).
 - An active and verified Twilio phone number to use as the source number for calls.
@@ -24,7 +24,7 @@ Before using SunQuestProspector, make sure you have the following:
 2. Install the project's dependencies.
     
     ```bash
-    cd sunquestprospector
+    cd TwilioQuestProspector
     npm install
     
     ```
@@ -48,7 +48,7 @@ Before using SunQuestProspector, make sure you have the following:
 
 ## Usage
 
-SunQuestProspector is an outbound call automation system. When a call is received, a voice message is played to the recipient with response options.
+TwilioQuestProspector is an outbound call automation system. When a call is received, a voice message is played to the recipient with response options.
 
 ### /outbound-calls
 
@@ -72,7 +72,7 @@ This endpoint redirects the call to the initial greeting message to allow the re
 
 ## Contribution
 
-If you want to contribute to SunQuestProspector, please follow these steps:
+If you want to contribute to TwilioQuestProspector, please follow these steps:
 
 1. Create a copy of the project (fork) on your own GitHub account.
 2. Clone the repository from your GitHub account to your local machine.
