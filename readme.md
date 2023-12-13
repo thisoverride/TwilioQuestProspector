@@ -35,6 +35,7 @@ Before using TwilioQuestProspector, make sure you have the following:
     TWILIO_ACCOUNT_SID=YourAccountSID
     TWILIO_AUTH_TOKEN=YourAuthToken
     CALL_CENTER=CallCenterPhoneNumber
+    DATA_URI=yYourMongoURI
     
     ```
     
