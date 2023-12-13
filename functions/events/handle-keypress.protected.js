@@ -28,15 +28,19 @@ exports.handler = async (context, event, callback) => {
   const trackProspect = {
     callSid: event.CallSid,
     called: event.Called,
-    digits: event.Digits,
+    digits: event.Digits === 'A' ? '2': event.Digits ,
     calledBy: event.From,
     callTime : moment().tz('Europe/Paris').format('YYYY-MM-DD HH:mm:ss')
   };
+  
   
   await handleTape(trackProspect);
   switch (selectedOption) {
     case '1':
       twiml.dial({ callerId: event.From }, process.env.CALL_CENTER);
+      break;
+    case 'A':
+      twiml.hangup();
       break;
     case '2':
       twiml.hangup();
