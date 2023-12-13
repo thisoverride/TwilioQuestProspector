@@ -14,10 +14,10 @@ Before using SunQuestProspector, make sure you have the following:
 
 ### Installation
 
-1. Clone the SunQuestProspector repository.
+1. Clone the TwilioQuestProspector repository.
     
     ```bash
-    git clone <https://github.com/yourusername/sunquestprospector.git>
+    git clone <https://github.com/thisoverride/TwilioQuestProspector.git>
     
     ```
     
