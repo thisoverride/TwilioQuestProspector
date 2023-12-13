@@ -1,4 +1,4 @@
-# SunQuestProspector
+# TwilioQuestProspector
 
 SunQuestProspector is a project that uses the Twilio platform to automate outbound phone calls, provide information, and manage recipient responses. The project is designed to help individuals save on their electricity bills by connecting them with a service specializing in energy savings.
 
