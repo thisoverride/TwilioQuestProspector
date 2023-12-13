@@ -18,7 +18,6 @@ Before using TwilioQuestProspector, make sure you have the following:
     
     ```bash
     git clone <https://github.com/thisoverride/TwilioQuestProspector.git>
-    
     ```
     
 2. Install the project's dependencies.
@@ -26,7 +25,6 @@ Before using TwilioQuestProspector, make sure you have the following:
     ```bash
     cd TwilioQuestProspector
     npm install
-    
     ```
     
 3. Configure the necessary environment variables. Make sure to add your accountSid and authToken to your .env file.
@@ -36,14 +34,12 @@ Before using TwilioQuestProspector, make sure you have the following:
     TWILIO_AUTH_TOKEN=YourAuthToken
     CALL_CENTER=CallCenterPhoneNumber
     DATA_URI=YourMongoDbURI
-    
     ```
     
 4. Deploy the project to the Twilio Functions platform.
     
     ```bash
     twilio serverless:deploy
-    
     ```
     
 
